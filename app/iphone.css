@@ -1,0 +1,8 @@
+/* iOS Safari automatically zooms focused controls below 16px. */
+@supports (-webkit-touch-callout:none){
+  input:not([type="color"]):not([type="checkbox"]):not([type="radio"]),
+  select,
+  textarea{
+    font-size:16px!important;
+  }
+}
